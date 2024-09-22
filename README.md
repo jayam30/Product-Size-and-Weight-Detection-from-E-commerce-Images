@@ -63,24 +63,24 @@ Achieved a 25% improvement in product detail extraction accuracy.
 Reduced manual labeling and processing effort by 40%, enhancing overall efficiency for e-commerce product listings.
 
 
-How to Run
+#How to Run
 Download images by running:
 bash
-Copy code
+
 python src/utils.py
-Preprocess the images using:
+#Preprocess the images using:
 bash
-Copy code
+
 python src/preprocess.py
-Train the model:
+#Train the model:
 bash
-Copy code
+
 python src/train.py
-Generate predictions:
+#Generate predictions:
 bash
-Copy code
+
 python src/predict.py
-Validate the output file using the provided sanity checker:
+#Validate the output file using the provided sanity checker:
 bash
-Copy code
+
 python src/sanity.py --file=test_out.cs
