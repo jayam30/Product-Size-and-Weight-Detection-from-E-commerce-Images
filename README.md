@@ -37,8 +37,7 @@ To set up and run the project locally, follow these steps:
    git clone https://github.com/your-username/size-weight-detection.git
 
 
-
-   Model Overview
+Model Overview
 This project leverages the Qwen-2-VL model, which is designed to analyze and extract entity values like weight and size from product images. The model was trained on a large dataset and fine-tuned with several optimization techniques, including:
 
 Population-Based Training (PBT)
@@ -62,6 +61,8 @@ Evaluation: The model's performance is evaluated based on the accuracy of predic
 Results
 Achieved a 25% improvement in product detail extraction accuracy.
 Reduced manual labeling and processing effort by 40%, enhancing overall efficiency for e-commerce product listings.
+
+
 How to Run
 Download images by running:
 bash
@@ -82,14 +83,4 @@ python src/predict.py
 Validate the output file using the provided sanity checker:
 bash
 Copy code
-python src/sanity.py --file=test_out.csv
-Contributing
-Contributions are welcome! Feel free to fork the repository and create a pull request with improvements, bug fixes, or new features.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-vbnet
-Copy code
-
-This `README.md` file provides a clear structure, explaining the project's purpose, installation steps,
+python src/sanity.py --file=test_out.cs
